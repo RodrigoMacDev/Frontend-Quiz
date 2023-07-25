@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  
+  color: #ddd;
+  overflow: hidden;
+
+  width: 100%;
+  height: 100vh;
+  background: #222;
+}
+
+.title {
+  margin: 3rem 0 2rem 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+}

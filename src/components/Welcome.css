@@ -1,0 +1,42 @@
+.welcome {
+  font-size: 1.4rem;
+  max-width: 80rem;
+  height: 60rem;
+  padding: 1.6rem 0;
+}
+
+.welcome h2,
+.welcome p {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+}
+
+.welcome h2 {
+  color: #0378f6;
+}
+
+.welcome img {
+  margin-top: 3rem;
+  max-width: 55%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 13rem;
+}
+
+.welcome button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 70rem) {
+  .buttons {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 40rem) {
+  .buttons {
+    padding: 0 1rem;
+  }
+}
